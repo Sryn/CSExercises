@@ -10,7 +10,8 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            
+            int a = 1;
+            Console.WriteLine("int a = {0:#.#}", a);
         }
     }
 }
