@@ -10,10 +10,10 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            Console.Write("Ex06 - Please type an integer: ");
+            Console.WriteLine("Ex06 - Please type an integer and we'll give you it's squareroot, rounded to three decimal places: ");
             int anInteger = Convert.ToInt32(Console.ReadLine());
 //            Console.WriteLine("The squareroot of the integer {0} is {1}.", anInteger, Math.Sqrt(Convert.ToDouble(anInteger)));
-            Console.WriteLine("The squareroot of the integer {0} is {1}.", anInteger, Math.Sqrt(anInteger)); // same answer as above
+            Console.WriteLine("{0:0.###}", Math.Sqrt(anInteger)); // same answer as above
         }
     }
 }

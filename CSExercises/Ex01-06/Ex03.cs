@@ -10,9 +10,9 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            Console.Write("Please type a double: ");
-            double aString = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("The square of the double {0} is {1}", aString, aString * aString);
+            Console.WriteLine("Ex03 - Please type a double and we'll give you it's square: ");
+            double aDouble = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine(aDouble * aDouble);
         }
     }
 }
