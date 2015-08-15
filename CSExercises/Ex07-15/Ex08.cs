@@ -10,7 +10,9 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            
+            Console.WriteLine("Ex08 - Please type a Centigrade temperature and we'll convert it to Fahrenheit:");
+            double aCentigradeDouble = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("{0:0.#}", (1.8 * aCentigradeDouble) + 32);
         }
     }
 }
