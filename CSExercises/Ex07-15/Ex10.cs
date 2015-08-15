@@ -18,7 +18,7 @@ namespace CSExercises
             double x2dbl = Convert.ToDouble(Console.ReadLine());
             Console.Write("y2: ");
             double y2dbl = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("{0}", Math.Sqrt(((x2dbl - x1dbl) * (x2dbl - x1dbl)) + ((y2dbl - y1dbl) * (y2dbl - y1dbl))));
+            Console.WriteLine(Math.Sqrt(((x2dbl - x1dbl) * (x2dbl - x1dbl)) + ((y2dbl - y1dbl) * (y2dbl - y1dbl))));
         }
     }
 }
